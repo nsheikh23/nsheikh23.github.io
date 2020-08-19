@@ -9,16 +9,16 @@ h1 {
 }
 
 #main-bio {
-    color: blue;
-}
-
-#contact-info {
-    color: blue;
-}
-
-/* #bio-name {
     text-align: center;
-} */
+    color: blue;
+}
+
+#lists {
+    color: blue;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
 
 #bio-image {
     /* Block display (more on this later) */
@@ -27,8 +27,4 @@ h1 {
     height: 200px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.container {
-    text-align: center;
 }
