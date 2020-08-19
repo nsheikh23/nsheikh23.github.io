@@ -1,38 +1,47 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <title>Biography</title>
 
-  <style>
-    h2 {
-      margin-bottom: 15px;
-      font-size: 60px;
-      color: blue;
-      text-align: center;
-      text-decoration: underline;
-      background-color: black;
-    }
-  </style>
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <h2>Nabeel Sheikh Biography</h2>
 
-  <!-- <img src="http://lorempixel.com/400/200/sports/" alt="Sorry could not find the image."> -->
+  <header>
+    <h1>Biography</h1>
+  </header>
 
-  <p>I am a Data Engineer continuing my education with Data Analytics and Visualization Boot camp at University of California Irvine.
-    I have worked as an Application/Data Engineer for Schlumberger for three years where I had the opportunity to extensively
-    work with Microsoft Excel to perform analysis on data collected by our sensors in the field. I was able to use the data collected
-    to help management visualize trends and make informed decisions on sales and inventory management.
-  </p>
-  
-  <ul>
-    <li><strong>Email:</strong> nabi.sheikh23@gmail.com</li>
-    <li><strong>Phone:</strong> 714-462-7988</li>
-    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nabeel--sheikh/" target="_blank">https://www.linkedin.com/in/nabeel--sheikh/</a></li>
-    <li><strong>GitHub:</strong> <a href="https://github.com/nsheikh23" target="_blank"> https://github.com/nsheikh23</a></li>
-  </ul>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Nabeel Sheikh</h2>
+        <img id="bio-image" src="ProDP1.jpg" alt="Nabeel Sheikh">
+      </section>
+      <p>I am a Data Engineer continuing my education with Data Analytics and Visualization Boot camp at University of California Irvine.
+        I have worked as an Application/Data Engineer for Schlumberger for three years where I had the opportunity to extensively
+        work with Microsoft Excel to perform analysis on data collected by our sensors in the field. I was able to use the data collected
+        to help management visualize trends and make informed decisions on sales and inventory management.
+      </p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> nabi.sheikh23@gmail.com</li>
+        <li><strong>Phone:</strong> 714-462-7988</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nabeel--sheikh/" target="_blank">https://www.linkedin.com/in/nabeel--sheikh/</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/nsheikh23" target="_blank"> https://github.com/nsheikh23</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
 
 </html>
