@@ -16,9 +16,19 @@ h1 {
     color: blue;
 }
 
+/* #bio-name {
+    text-align: center;
+} */
+
 #bio-image {
     /* Block display (more on this later) */
     display: block;
     width: 200px;
     height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    text-align: center;
 }
