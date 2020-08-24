@@ -24,17 +24,17 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="projects.html">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
         
       </ul>
@@ -46,18 +46,36 @@
   </nav>
   
   <main class="container-fluid">
-    <div style=background-color:white ; class="jumbotron jumbotron-fluid" id='intro'>
-      <div class="container-fluid">
-        <h1 class="display-4">Welcome to The Sheikh Analysis</h1>
-        <p class="lead">where you will witness analysis performed on topics that are trending!</p>
-        <p class='lead'>From the stock market to social media, you can find it all here!</p>
-        <a class='btn btn-primary btn-lg' href="projects.html" role="button">Projects</a>
-        <hr class='my-4'>
-        <p class='lead'>If you would like to see analysis on a specific topic, send me a request!</p>
-        <a class='btn btn-primary btn-lg' href="contact.html" role="button">Requests</a>
-      </div>
+    <aside id="lists">
+      <h3>Contact Information:</h3>
+      <ul>
+        <li><strong>Email:</strong> nabi.sheikh23@gmail.com</li>
+        <li><strong>Phone:</strong> 714-462-7988</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nabeel--sheikh/" target="_blank">https://www.linkedin.com/in/nabeel--sheikh/</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/nsheikh23" target="_blank"> https://github.com/nsheikh23</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <form id='form'>
+    <div class="form-row">
+        <div class='col-md-6'>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Topic of interest:</label>
+                <input type="text" class="form-control" id="topic_request" placeholder="Please share the topic only">
+            </div>
+        </div>
     </div>
-  </main>  
+    <div class="form-row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">What would you like to see? Please be as detailed as possible.</label>
+                <textarea class="form-control" id="topic_details" rows="3"></textarea>
+              </div>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit request</button>
+  </form>
 
 </body>
 

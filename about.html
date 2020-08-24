@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Biography</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">The Sheikh Analysis</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  
+  <main class="container-fluid">
+    <section id="main-bio">
+      <section id="figure">
+        <h3 id="bio-name">Nabeel Sheikh</h3>
+        <img id="bio-image" src="/Assets/imgs/Pic.jpg" alt="Nabeel Sheikh" width=200px height=200px>
+      </section>
+      <p></p>
+      <strong><p>Data Engineer With Business Intelligence skills</p></strong>
+      <p>
+        Since beginning my journey as a Data Engineer nearly 3 years ago, I have gained experience interpreting, analyzing, modeling, and implementing strategies to optimize statistical efficiency and quality. 
+        I have a proven background in effectively communicating relevant data into business insight to promote informed decision-making; and guided projects from conception to completion while managing design effort and ensuring on-schedule project delivery. 
+        I consulted with internal and external clientele and utilize additional system resources to review and enhance configuration for optimal customer satisfaction, demonstrating my strong communication and interpersonal skills. 
+        I thrive in exploring and utilizing tools to facilitate business driven solutions.        
+      </p>
+    </section>
+
+    <aside id="lists">
+      <h2>Skills/Languagues:</h2>
+      <ul>
+        <li>Python</li>
+        <li>SQL (Postgres)</li>
+        <li>NoSQL (MongoDB)</li>
+        <li>Flask</li>
+        <li>REST API</li>
+        <li>AWS</li>
+        <li>JavaScript</li>
+        <li>HTML & CSS</li>
+        <li>Process Improvement</li>
+        <li>Reporting & Documentation</li>
+        <li>Project Management</li>
+        <li>Business Intelligence</li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
+</html>
