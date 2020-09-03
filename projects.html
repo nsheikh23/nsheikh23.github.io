@@ -10,7 +10,7 @@
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="Assets/styles/style.css">
 
 </head>
 
@@ -43,22 +43,30 @@
   
 
   <main class="container-fluid">
+    <br>
     <h3>PROJECTS</h3>
     <br>
     <div class='row'>
-      <div class="col-xs-8 col-md-3">
+      <div class="col-xs-10 col-md-4" id='boxes'>
         <h4>Stock Market Analysis</h4>
-        <a href="stockmarket.html"><img src="Assets/imgs/stock_analysis/Since1977.png" width="250" height="200"></a>
+        <a href="stockmarket.html">
+          <img id='images' src="Assets/imgs/stock_analysis/DOW YTD.png">
+        </a>
         <p>Analyzing the stock market and the impact of COVID-19.</p>
       </div>
-      <div class="col-xs-8 col-md-3">
+      
+      <div class="col-xs-10 col-md-4" id='boxes'>
         <h4>Web Visualization</h4>
-        <a href="https://nsheikh23.github.io/Web-Design-Challenge/index.html"><img src="Assets/imgs/web image.jpg" alt=""></a>
+        <a href="https://nsheikh23.github.io/Web-Design-Challenge/index.html">
+          <img id='images' src="Assets/imgs/web image.jpg" alt='Web Visualization'>
+        </a>
         <p>Creating a web analysis dashboard.</p>
       </div>
-      <div class="col-xs-8 col-md-3">
+      <div class="col-xs-10 col-md-4" id='boxes'>
         <h4>Mission to Mars</h4>
-        <a href="https://nsheikh23.github.io/web-scraping-challenge/index.html"><img src="Assets/imgs/mission_to_mars.png" alt="Mission to Mars"></a>
+        <a href="https://nsheikh23.github.io/web-scraping-challenge/index.html">
+          <img id='images' src="Assets/imgs/mission_to_mars.png" alt="Mission to Mars">
+        </a>
         <p>Scraping the web for updates on Mars.</p>
       </div>
     </div>
