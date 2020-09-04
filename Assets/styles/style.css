@@ -10,14 +10,18 @@
 }
 
 /* Projects page */
+.content {
+  align-self: center;
+}
+
 #boxes {
   border-color: #007bff; 
   border-style: solid;
-  /* margin: 15px; */
+  margin: 5px;
 }
 
 #images {
-  width: 425px;
+  width: 250px;
   height: 200px;
 }
 
