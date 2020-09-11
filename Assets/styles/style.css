@@ -24,7 +24,7 @@ div.c-wrapper {
 }
 
 #boxes {
-  border-color: #007bff; 
+  border-color: black; 
   border-style: solid;
   margin: 5px;
 }
@@ -32,6 +32,10 @@ div.c-wrapper {
 #images {
   width: 250px;
   height: 200px;
+}
+
+#boxes:hover {
+  border: 5px solid #007bff;
 }
 
 /* Contact page */
